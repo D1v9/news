@@ -1,0 +1,477 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>PrimeGaming</title>
+  <link rel="stylesheet" href="css/index.css">
+  <link rel="shortcut icon" href="img/image.png" type="image/png">
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Inter:wght@300&display=swap">
+</head>
+<body>
+  <header>
+    <nav class="menu">
+        <img class="img1" src="img/image.png">
+        <ul class="nav-links">
+            <li><a class="link1" href="Поддержка.html">Поддержка</a></li>
+            <li><a class="link1" href="Дистрибуция.html">Дистрибуция</a></li>
+        </ul>
+        <div class="elementright">
+          <a href="Вход.html">
+          <img class="imguser" src="img/user.png">
+          </a>
+          <div class="language-switcher">
+            <div class="language-container">
+                <img src="img/imglanguage.png" id="languageImage">
+                <div id="languageOptions" class="language-options">
+                    <select id="languageSelector">
+                        <option value="ru">RU</option>
+                        <option value="en">EN</option>
+                    </select>
+                </div>
+            </div>
+        </div>
+      </div>
+      
+    </nav>
+  </header>
+
+  <div class="center1">
+    <div class="search-container">
+        <div class="center">
+            <input type="text" placeholder="Искать в магазине">
+        </div>
+        <div class="additional-links">
+            <a class="link2" href="Все игры.html">Все игры</a>
+            <a class="link2" href="Новости.html">Новости</a>
+        </div>
+    </div>
+    <br>
+    <div class="images">
+        <img class="img2" src="img/add1.png">
+        <img class="img2" src="img/add2.png">
+        <img class="img2" src="img/add3.png">
+    </div>
+    <div class="slider">
+        <div class="slides">
+          <div class="slide">
+            <img src="img/game2.png">
+            <p class="slide-description">Alan Wake 2</p>
+            <button class="buy-button">Купить со скидкой</button>
+          </div>
+          <div class="slide">
+            <img src="img/game1.png">
+            <p class="slide-description">LOTR: Return to Moria</p>
+            <button class="buy-button">Купить со скидкой</button>
+          </div>
+          <div class="slide">
+            <img src="img/game3.jpg">
+            <p class="slide-description">Assassin's Creed: Мираж</p>
+            <button class="buy-button">Купить со скидкой</button>
+          </div>
+        </div>
+        <div class="navigation">
+          <button class="btn" onclick="moveSlide(-1)">Предыдущие</button>
+          <button class="btn" onclick="moveSlide(1)">Следующие</button>
+        </div>
+     </div>
+    <div class="shop">
+        <h1 class="h1class">Лучшее на Праздничной распродаже</h1>
+        <div class="images1">
+          <div class="game-item">
+            <img class="img3" src="img/game4.png">
+            <h2 class="h2class">Базовая игра</h2>
+            <p class="p1">Remnant 2</p>
+            <div class="discount">
+                <div class="rectangle">
+                    <p>-40%</p>
+                </div>
+                <span class="price">3500 ₽</span>
+                <span class="price1">1400 ₽</span>
+            </div>
+          </div>        
+          <div class="game-item">
+            <img class="img3" src="img/game5.png">
+            <h2 class="h2class">Базовая игра</h2>
+            <p class="p1">RoboCop: Rogue City</p>
+            <div class="discount">
+                <div class="rectangle">
+                    <p>-40%</p>
+                </div>
+                <span class="price">3500 ₽</span>
+                <span class="price1">1400 ₽</span>
+            </div>
+          </div>    
+          <div class="game-item">
+            <img class="img3" src="img/game6.png">
+            <h2 class="h2class">Базовая игра</h2>
+            <p class="p1">Aliens: Dark Descent</p>
+            <div class="discount">
+                <div class="rectangle">
+                    <p>-40%</p>
+                </div>
+                <span class="price">3500 ₽</span>
+                <span class="price1">1400 ₽</span>
+            </div>
+          </div>    
+          <div class="game-item">
+            <img class="img3" src="img/game7.png">
+            <h2 class="h2class">Базовая игра</h2>
+            <p class="p1">Witchfire</p>
+            <div class="discount">
+                <div class="rectangle">
+                    <p>-40%</p>
+                </div>
+                <span class="price">3500 ₽</span>
+                <span class="price1">1400 ₽</span>
+            </div>
+          </div>    
+          <div class="game-item">
+            <img class="img3" src="img/game8.png">
+            <h2 class="h2class">Базовая игра</h2>
+            <p class="p1">A Plague Tale: Requiem</p>
+              <div class="discount">
+                <div class="rectangle">
+                    <p>-40%</p>
+                </div>
+                <span class="price">3500 ₽</span>
+                <span class="price1">1400 ₽</span>
+              </div>
+          </div>    
+        </div>
+    </div>
+    <div class="salery">
+        <div class="sale-item">
+          <img class="saleyimg" src="img/salery1.png">
+          <div class="discount-text">Вознаграждения Prime еще круче</div>
+          <div class="discount-text1">В честь Праздничной распродажи вознаграждения Prime временно повышены на 10%!</div>
+        </div>
+      <div class="sale-item">
+          <img class="saleyimg" src="img/salery2.png">
+          <div class="discount-text2">События во время Праздничной распродажи</div>
+          <div class="discount-text3">Выбор игр для зимнего праздника: наслаждение и развлечение неизбежны.</div>
+      </div>
+    </div>
+    <div class="freegame">
+      <div class="freegameelement">
+        <img class="freegameimg" src="img/freegame.png">
+        <a class="textfree">Бесплатные игры</a>
+        <div class="buttonfree">
+          <button class="buttonfreegame">Подробнее</button>
+        </div>
+      </div>
+      <div class="horizontal-images">
+        <div class="image-container">
+            <img class="bottom-img" src="img/freegame1.png">
+            <p class="image-text">Ghostwire: Tokyo Бесплатно до 11:00 25 дек</p>
+        </div>
+        <div class="image-container">
+            <img class="bottom-img1" src="img/freegame2.png">
+            <p class="image-text1" id="timer-text">Подарок откроется через: <span id="countdown">10:00:00</span></p>
+        </div>
+      </div>    
+   </div>    
+</div> 
+<script>
+let index = 0;
+let slideInterval;
+
+function moveSlide(step) {
+  const slides = document.querySelector('.slides');
+  const totalSlides = document.querySelectorAll('.slide').length;
+
+  index = (index + step + totalSlides) % totalSlides;
+  slides.style.transform = `translateX(${-index * 100}%)`;
+}
+
+function startSlider() {
+  slideInterval = setInterval(function() {
+    moveSlide(1);
+  }, 3000);
+}
+
+function stopSlider() {
+  clearInterval(slideInterval);
+}
+
+document.querySelectorAll('.btn').forEach(button => {
+  button.addEventListener('click', () => {
+    stopSlider();
+    startSlider();
+  });
+});
+
+startSlider();
+
+
+function countdown() {
+  const timer = document.getElementById('countdown');
+  let count = 36000;
+
+  const countdownInterval = setInterval(() => {
+    count--;
+
+    if (count <= 0) {
+      clearInterval(countdownInterval);
+      document.getElementById('timer-text').innerHTML = 'Изображение открыто';
+    } else {
+      const hours = Math.floor(count / 3600);
+      const minutes = Math.floor((count % 3600) / 60);
+      const seconds = count % 60;
+
+      const formattedTime = `${pad(hours)}:${pad(minutes)}:${pad(seconds)}`;
+      timer.textContent = formattedTime;
+    }
+  }, 1000);
+}
+
+function pad(value) {
+  return value < 10 ? `0${value}` : value;
+}
+
+document.addEventListener('DOMContentLoaded', () => {
+  countdown();
+});
+
+
+
+const languageSelector = document.getElementById('languageSelector');
+const menuLinks = document.querySelectorAll('.nav-links a');
+const additionalLinks = document.querySelectorAll('.additional-links a');
+const slides = document.querySelectorAll('.slide');
+const slideDescriptions = document.querySelectorAll('.slide-description');
+const footerLinks = document.querySelectorAll('.footer-content a');
+const buyButtons = document.querySelectorAll('.buy-button');
+const nextButtons = document.querySelectorAll('.btn');
+const prevButtons = document.querySelectorAll('.btn');
+const discountText = document.querySelector('.discount-text');
+const discountTexta = document.querySelector('.discount-text2');
+const discountTextas = document.querySelector('.discount-text1');
+const discountTextass = document.querySelector('.discount-text3');
+const freegametext = document.querySelector('.textfree');
+const buttontext = document.querySelector('.buttonfreegame');
+const freetext = document.querySelector('.image-text');
+const freetexttimer = document.querySelector('.image-text1');
+h1Classes = document.querySelectorAll('.h1class');
+h2Classes = document.querySelectorAll('.h2class');
+
+
+function changeLanguage(language) {
+    if (language === 'ru') {
+        menuLinks.forEach(link => {
+            switch (link.innerHTML) {
+                case 'Support':
+                    link.innerHTML = 'Поддержка';
+                    break;
+                case 'Distribution':
+                    link.innerHTML = 'Дистрибуция';
+                    break;
+            }
+        });
+        additionalLinks.forEach(link => {
+            switch (link.innerHTML) {
+                case 'Main':
+                    link.innerHTML = 'Главное';
+                    break;
+                case 'All Games':
+                    link.innerHTML = 'Все игры';
+                    break;
+                case 'News':
+                    link.innerHTML = 'Новости';
+                    break;
+            }
+          });
+         slideDescriptions.forEach((description, index) => {
+               switch (description.textContent) {
+                  case 'Alan Wake 2':
+                    description.textContent = 'Алан Уэйк 2';
+                    break;
+                  case 'LOTR: Return to Moria':
+                    description.textContent = 'Властелин Колец: Возвращение в Морию';
+                    break;
+                  case "Assassin's Creed: Мираж":
+                    description.textContent = 'Assassins Creed: Мираж';
+                    break;
+            }
+          });
+          buyButtons.forEach(button => {
+            if (button.textContent === 'Buy with discount') {
+              button.textContent = 'Купить со скидкой';
+            }
+          });
+
+          prevButtons.forEach(button => {
+            if (button.textContent === 'Previous') {
+              button.textContent = 'Предыдущие';
+            }
+          });
+          nextButtons.forEach(button => {
+             if (button.textContent === 'Next') {
+               button.textContent = 'Следующие';
+          }
+          });
+          h1Classes.forEach(element => {
+             switch (element.textContent) {
+               case 'Best Deals on Holiday Sale':
+                 element.textContent = 'Лучшее на Праздничной распродаже';
+                  break;
+            }
+          });
+          h2Classes.forEach(element => {
+                    if (element.textContent === 'Base Game') {
+                      element.textContent = 'Базовая игра';
+                      if (discountText.textContent === 'Prime rewards are even cooler') {
+                      discountText.textContent = 'Вознаграждения Prime еще круче';
+                      if (discountTexta.textContent === 'Events during the Holiday Sale') {
+                      discountTexta.textContent = 'События во время Праздничной распродажи';
+                      if (discountTextas.textContent === 'In honor of the Prime Rewards Holiday Sale temporarily increased by 10%!') {
+                      discountTextas.textContent = 'В честь Праздничной распродажи вознаграждения Prime временно повышены на 10%!';
+                      if (discountTextass.textContent === 'The choice of games for the winter holiday: enjoyment and entertainment are inevitable.') {
+                      discountTextass.textContent = 'Выбор игр для зимнего праздника: наслаждение и развлечение неизбежны.';
+                      if (freegametext.textContent === 'Free games') {
+                      freegametext.textContent = 'Бесплатные игры';
+                      if (buttontext.textContent === 'More detailed') {
+                      buttontext.textContent = 'Подробнее';
+                      if (freetext.textContent === 'Ghostwire: Tokyo Free of charge until 11:00 on Dec 25') {
+                      freetext.textContent = 'Ghostwire: Tokyo Бесплатно до 11:00 25 дек';
+                      if (freetexttimer.textContent === 'The gift will open in:') {
+                      freetexttimer.textContent = 'Подарок откроется через:';
+                        }
+                        }
+                        }
+                      }
+                    }
+                  }
+                }
+             }
+          }
+          });
+         footerLinks.forEach(link => {
+            // Аналогично для ссылок в подвале
+        });
+
+
+    } else if (language === 'en') {
+        menuLinks.forEach(link => {
+            switch (link.innerHTML) {
+                case 'Поддержка':
+                    link.innerHTML = 'Support';
+                    break;
+                case 'Дистрибуция':
+                    link.innerHTML = 'Distribution';
+                    break;
+            }
+        });
+        additionalLinks.forEach(link => {
+            switch (link.innerHTML) {
+                case 'Главное':
+                    link.innerHTML = 'Main';
+                    break;
+                case 'Все игры':
+                    link.innerHTML = 'All Games';
+                    break;
+                case 'Новости':
+                    link.innerHTML = 'News';
+                    break;
+            }
+        });
+        slideDescriptions.forEach((description, index) => {
+              switch (description.textContent) {
+                  case 'Алан Уэйк 2':
+                    description.textContent = 'Alan Wake 2';
+                    break;
+                  case 'Властелин Колец: Возвращение в Морию':
+                    description.textContent = 'LOTR: Return to Moria';
+                    break;
+                  case "Assassin's Creed: Мираж":
+                    description.textContent = "Assassins Creed: Mirage";
+                    break;
+           }
+        });
+        buyButtons.forEach(button => {
+            if (button.textContent === 'Купить со скидкой') {
+              button.textContent = 'Buy with discount';
+            }
+          });
+
+    prevButtons.forEach(button => {
+      if (button.textContent === 'Предыдущие') {
+        button.textContent = 'Previous';
+          }
+        });
+    nextButtons.forEach(button => {
+      if (button.textContent === 'Следующие') {
+        button.textContent = 'Next';
+          }
+        });
+      
+        h1Classes.forEach(element => {
+             switch (element.textContent) {
+               case 'Лучшее на Праздничной распродаже':
+                 element.textContent = 'Best Deals on Holiday Sale';
+                  break;
+            }
+          });
+          h2Classes.forEach(element => {
+                  if (element.textContent === 'Базовая игра') {
+                  element.textContent = 'Base Game';
+                  if (discountText.textContent === 'Вознаграждения Prime еще круче') {
+                  discountText.textContent = 'Prime rewards are even cooler';
+                  if (discountTexta.textContent === 'События во время Праздничной распродажи') {
+                  discountTexta.textContent = 'Events during the Holiday Sale';
+                  if (discountTextas.textContent === 'В честь Праздничной распродажи вознаграждения Prime временно повышены на 10%!') {
+                  discountTextas.textContent = 'In honor of the Prime Rewards Holiday Sale temporarily increased by 10%!';
+                  if (discountTextass.textContent === 'Выбор игр для зимнего праздника: наслаждение и развлечение неизбежны.') {
+                      discountTextass.textContent = 'The choice of games for the winter holiday: enjoyment and entertainment are inevitable.';
+                      if (freegametext.textContent === 'Бесплатные игры') {
+                      freegametext.textContent = 'Free games';
+                      if (buttontext.textContent === 'Подробнее') {
+                      buttontext.textContent = 'More detailed';
+                      if (freetext.textContent === 'Ghostwire: Tokyo Бесплатно до 11:00 25 дек') {
+                      freetext.textContent = 'Ghostwire: Tokyo Free of charge until 11:00 on Dec 25';
+                      if (freetexttimer.textContent === 'Подарок откроется через:') {
+                      freetexttimer.textContent = 'Подарок откроется через:';
+                        }
+                        }
+                        }
+                      }
+                    }
+                  }
+                }
+              }
+            }
+          });
+        footerLinks.forEach(link => {
+        });
+        
+    }
+}
+
+languageSelector.addEventListener('change', function() {
+    const selectedLanguage = languageSelector.value;
+    changeLanguage(selectedLanguage);
+});
+
+
+const languageImage = document.getElementById('languageImage');
+const languageOptions = document.getElementById('languageOptions');
+
+languageImage.addEventListener('mouseover', function() {
+    languageOptions.style.display = 'block';
+});
+
+languageOptions.addEventListener('mouseleave', function() {
+    languageOptions.style.display = 'none';
+});
+  </script>
+   <footer>
+    <div class="footer-content">
+      <p>&copy; 2024 Prime Gaming</p>
+      <div class="social-links">
+        <a href="https://vk.com/"><img src="img/vk.png" alt="Facebook"></a>
+        <a href="https://www.instagram.com/"><img src="img/instagram.png" alt="Twitter"></a>
+      </div>
+    </div>
+  </footer>
+</body>
+</html>
