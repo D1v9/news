@@ -1,0 +1,390 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/games.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Inter:wght@300&display=swap">
+    <link rel="shortcut icon" href="img/image.png" type="image/png">
+    <title>PrimeGaming</title>
+</head>
+<body>
+    <header>
+        <nav class="menu">
+            <img class="img1" src="img/image.png">
+            <ul class="nav-links">
+                <li><a class="link1" href="Поддержка.html">Поддержка</a></li>
+                <li><a class="link1" href="#">Дистрибуция</a></li>
+            </ul>
+          <div class="elementright">
+              <a href="Вход.html">
+                <img class="imguser" src="img/user.png">
+              </a>
+              <div class="language-switcher">
+                <div class="language-container">
+                    <img src="img/imglanguage.png" id="languageImage" alt="Language Selector Image">
+                    <div id="languageOptions" class="language-options">
+                        <select id="languageSelector">
+                            <option value="ru">RU</option>
+                            <option value="en">EN</option>
+                        </select>
+                    </div>
+                </div>
+            </div>
+          </div>          
+        </nav>
+    </header>
+    <div class="center1">
+        <div class="search-container">
+            <div class="center">
+                <input type="text" placeholder="Искать в магазине">
+            </div>
+            <div class="additional-links">
+                <a class="link2" href="Главное.html">Главное</a>
+                <a class="link2" href="Новости.html">Новости</a>
+            </div>
+        </div>
+        <div class="shop">
+            <h1 class="h1class">Популярные жанры</h1>
+            <div class="kartgames">
+                <div class="backgroundkart">
+                    <img class="imgkart" src="img/kartgame.png">
+                    <p class="textkart">MMO-игры</p>
+                </div>
+                <div class="backgroundkart">
+                    <img class="imgkart" src="img/kartgame1.png">
+                    <p class="textkart">Фэнтези-игры</p>
+                </div>
+                <div class="backgroundkart">
+                    <img class="imgkart" src="img/kartgame2.png">
+                    <p class="textkart">Хоррор</p>
+                </div>
+                <div class="backgroundkart">
+                    <img class="imgkart" src="img/kartgame3.png">
+                    <p class="textkart">Шутер</p>
+                </div>
+            </div>
+            <div class="shop1">
+              <h1 class="h1class1">Показать:
+                <div class="dropdown">
+                  <button id="dropbtn" class="dropbtn">Все</button>
+                  <div class="dropdown-content">
+                      <a class="dropdowntext1" href="#" id="all">Все</a>
+                      <a class="dropdowntext1" href="#" id="new">Новинки</a>
+                      <a class="dropdowntext1" href="#" id="mmorpg">MMO-игры</a>
+                      <a class="dropdowntext1" href="#" id="fantasy">Фэнтези-игры</a>
+                      <a class="dropdowntext1" href="#" id="horror">Хоррор</a>
+                      <a class="dropdowntext1" href="#" id="shooter">Шутер</a>
+                  </div>
+                </div>
+                    <div class="shop">
+                      <div class="images1">
+                        <div class="game-item" data-category="new">
+                          <img class="img3" src="img/game4.png">
+                          <h2 class="h2class">Базовая игра</h2>
+                          <p class="p1">Remnant 2</p>
+                        </div>        
+                        <div class="game-item" data-category="mmorpg">
+                          <img class="img3" src="img/game5.png">
+                          <h2 class="h2class">Базовая игра</h2>
+                          <p class="p1">RoboCop: Rogue City</p>
+                        </div>    
+                        <div class="game-item" data-category="new">
+                          <img class="img3" src="img/game6.png">
+                          <h2 class="h2class">Базовая игра</h2>
+                          <p class="p1">Aliens: Dark Descent</p>
+                        </div>    
+                        <div class="game-item" data-category="new">
+                          <img class="img3" src="img/game7.png">
+                          <h2 class="h2class">Базовая игра</h2>
+                          <p class="p1">Witchfire</p>
+                        </div>    
+                        <div class="game-item" data-category="mmorpg">
+                          <img class="img3" src="img/game8.png">
+                          <h2 class="h2class">Базовая игра</h2>
+                          <p class="p1">A Plague Tale: Requiem</p>
+                        </div>
+                    </div>          
+                </div>
+                <div class="shop2">
+                  <div class="images2">
+                    <div class="game-item" data-category="shooter">
+                      <img class="img3" src="img/game9.png">
+                      <h2 class="h2class">Базовая игра</h2>
+                      <p class="p1">GhostRunner</p>
+                    </div>        
+                    <div class="game-item" data-category="horror">
+                      <img class="img3" src="img/game10.png">
+                      <h2 class="h2class">Базовая игра</h2>
+                      <p class="p1">The Outlast Trials</p>
+                    </div>    
+                    <div class="game-item" data-category="new">
+                      <img class="img3" src="img/game11.png">
+                      <h2 class="h2class">Базовая игра</h2>
+                      <p class="p1">PC Building Simulator 2</p>
+                    </div>    
+                    <div class="game-item" data-category="fantasy">
+                      <img class="img3" src="img/game12.png">
+                      <h2 class="h2class">Базовая игра</h2>
+                      <p class="p1">Atlas Fallen</p>
+                    </div>    
+                    <div class="game-item" data-category="fantasy">
+                      <img class="img3" src="img/game13.png">
+                      <h2 class="h2class">Базовая игра</h2>
+                      <p class="p1">Satisfactory</p>
+                    </div>
+                </div>          
+            </div>
+              </div>            
+            </h1>
+        </div>            
+    </div>
+</body>
+<script>
+   document.addEventListener("DOMContentLoaded", function() {
+    // Находим блок с классом "game-item" и атрибутом data-category="new"
+    const newGameItem = document.querySelector('.shop2 .images2 [data-category="new"]');
+    
+    // Находим блок с классом "images1" в "shop1"
+    const imagesContainer = document.querySelector('.shop1 .images1');
+    
+    // Функция для перемещения элемента
+    function moveNewGameItem() {
+      if (newGameItem && imagesContainer) {
+        imagesContainer.appendChild(newGameItem);
+      }
+    }
+    
+    // Находим ссылку на пункт "Новинки" в выпадающем меню
+    const newLink = document.getElementById('new');
+    
+    // Добавляем обработчик события для клика по ссылке на "Новинки"
+    if (newLink) {
+      newLink.addEventListener('click', moveNewGameItem);
+    }
+  });
+// Function to show games based on category
+function showGamesByCategory(categoryId) {
+    const gameItems = document.querySelectorAll('.game-item');
+    
+    // Show all games if the category is 'all'
+    if (categoryId === 'all') {
+        gameItems.forEach(item => {
+            item.style.display = 'block';
+        });
+        return;
+    }
+    
+    // Hide all games and display only games belonging to the selected category
+    gameItems.forEach(item => {
+        const gameCategory = item.dataset.category;
+        if (gameCategory === categoryId) {
+            item.style.display = 'block';
+        } else {
+            item.style.display = 'none';
+        }
+    });
+}
+
+// Add event listeners to category links
+document.querySelectorAll('.dropdowntext1').forEach(link => {
+    link.addEventListener('click', function(e) {
+        e.preventDefault();
+        const categoryId = this.getAttribute('id');
+        showGamesByCategory(categoryId);
+    });
+});
+
+
+
+
+
+// Обработчик события для выбора категории
+document.querySelectorAll('.dropdowntext1').forEach(link => {
+  link.addEventListener('click', function(e) {
+    e.preventDefault();
+    const categoryId = this.getAttribute('id');
+    showGamesByCategory(categoryId);
+  });
+});
+
+
+
+const dropbtn = document.getElementById("dropbtn");
+function handleItemClick(event) {
+  event.preventDefault();
+  if (event.target.id !== "dropbtn") {
+    dropbtn.textContent = event.target.textContent;
+  }
+}
+const dropdownItems = document.querySelectorAll(".dropdown-content a");
+dropdownItems.forEach(item => {
+  item.addEventListener("click", handleItemClick);
+});
+
+
+
+
+const languageSelector = document.getElementById('languageSelector');
+const menuLinks = document.querySelectorAll('.nav-links a');
+const additionalLinks = document.querySelectorAll('.additional-links a');
+h2Classes = document.querySelectorAll('.h1class');
+
+
+function changeLanguage(language) {
+    if (language === 'ru') {
+        menuLinks.forEach(link => {
+            switch (link.innerHTML) {
+                case 'Shop':
+                    link.innerHTML = 'Магазин';
+                    break;
+                case 'Games':
+                    link.innerHTML = 'Игры';
+                    break;
+                case 'Support':
+                    link.innerHTML = 'Поддержка';
+                    break;
+                case 'Help':
+                    link.innerHTML = 'Помощь';
+                    break;
+            }
+        });
+        additionalLinks.forEach(link => {
+            switch (link.innerHTML) {
+                case 'Main':
+                    link.innerHTML = 'Главное';
+                    break;
+                case 'All Games':
+                    link.innerHTML = 'Все игры';
+                    break;
+                case 'News':
+                    link.innerHTML = 'Новости';
+                    break;
+            }
+          });
+          h2Classes.forEach(element => {
+                    if (element.textContent === 'Popular genres') {
+                      element.textContent = 'Популярные жанры';
+                      if (discountText.textContent === 'Prime rewards are even cooler') {
+                      discountText.textContent = 'Вознаграждения Prime еще круче';
+                      if (discountTexta.textContent === 'Events during the Holiday Sale') {
+                      discountTexta.textContent = 'События во время Праздничной распродажи';
+                      if (discountTextas.textContent === 'In honor of the Prime Rewards Holiday Sale temporarily increased by 10%!') {
+                      discountTextas.textContent = 'В честь Праздничной распродажи вознаграждения Prime временно повышены на 10%!';
+                      if (discountTextass.textContent === 'The choice of games for the winter holiday: enjoyment and entertainment are inevitable.') {
+                      discountTextass.textContent = 'Выбор игр для зимнего праздника: наслаждение и развлечение неизбежны.';
+                      if (freegametext.textContent === 'Free games') {
+                      freegametext.textContent = 'Бесплатные игры';
+                      if (buttontext.textContent === 'More detailed') {
+                      buttontext.textContent = 'Подробнее';
+                      if (freetext.textContent === 'Ghostwire: Tokyo Free of charge until 11:00 on Dec 25') {
+                      freetext.textContent = 'Ghostwire: Tokyo Бесплатно до 11:00 25 дек';
+                      if (freetexttimer.textContent === 'The gift will open in:') {
+                      freetexttimer.textContent = 'Подарок откроется через:';
+                        }
+                        }
+                        }
+                      }
+                    }
+                  }
+                }
+             }
+          }
+          });
+         footerLinks.forEach(link => {
+            // Аналогично для ссылок в подвале
+        });
+
+
+    } else if (language === 'en') {
+        menuLinks.forEach(link => {
+            switch (link.innerHTML) {
+                case 'Магазин':
+                    link.innerHTML = 'Shop';
+                    break;
+                case 'Игры':
+                    link.innerHTML = 'Games';
+                    break;
+                case 'Поддержка':
+                    link.innerHTML = 'Support';
+                    break;
+                case 'Помощь':
+                    link.innerHTML = 'Help';
+                    break;
+            }
+        });
+        additionalLinks.forEach(link => {
+            switch (link.innerHTML) {
+                case 'Главное':
+                    link.innerHTML = 'Main';
+                    break;
+                case 'Все игры':
+                    link.innerHTML = 'All Games';
+                    break;
+                case 'Новости':
+                    link.innerHTML = 'News';
+                    break;
+            }
+        });
+          h2Classes.forEach(element => {
+                  if (element.textContent === 'Популярные жанры') {
+                  element.textContent = 'Popular genres';
+                  if (discountText.textContent === 'Вознаграждения Prime еще круче') {
+                  discountText.textContent = 'Prime rewards are even cooler';
+                  if (discountTexta.textContent === 'События во время Праздничной распродажи') {
+                  discountTexta.textContent = 'Events during the Holiday Sale';
+                  if (discountTextas.textContent === 'В честь Праздничной распродажи вознаграждения Prime временно повышены на 10%!') {
+                  discountTextas.textContent = 'In honor of the Prime Rewards Holiday Sale temporarily increased by 10%!';
+                  if (discountTextass.textContent === 'Выбор игр для зимнего праздника: наслаждение и развлечение неизбежны.') {
+                      discountTextass.textContent = 'The choice of games for the winter holiday: enjoyment and entertainment are inevitable.';
+                      if (freegametext.textContent === 'Бесплатные игры') {
+                      freegametext.textContent = 'Free games';
+                      if (buttontext.textContent === 'Подробнее') {
+                      buttontext.textContent = 'More detailed';
+                      if (freetext.textContent === 'Ghostwire: Tokyo Бесплатно до 11:00 25 дек') {
+                      freetext.textContent = 'Ghostwire: Tokyo Free of charge until 11:00 on Dec 25';
+                      if (freetexttimer.textContent === 'Подарок откроется через:') {
+                      freetexttimer.textContent = 'Подарок откроется через:';
+                        }
+                        }
+                        }
+                      }
+                    }
+                  }
+                }
+              }
+            }
+          });
+        footerLinks.forEach(link => {
+        });
+        
+    }
+}
+languageSelector.addEventListener('change', function() {
+    const selectedLanguage = languageSelector.value;
+    changeLanguage(selectedLanguage);
+});
+
+const languageImage = document.getElementById('languageImage');
+const languageOptions = document.getElementById('languageOptions');
+
+languageImage.addEventListener('mouseover', function() {
+    languageOptions.style.display = 'block';
+});
+
+languageOptions.addEventListener('mouseleave', function() {
+    languageOptions.style.display = 'none';
+});
+
+</script>
+<footer>
+  <div class="footer-content">
+    <p>&copy; 2024 Prime Gaming</p>
+    <div class="social-links">
+      <a href="https://vk.com/"><img src="img/vk.png" alt="Facebook"></a>
+      <a href="https://www.instagram.com/"><img src="img/instagram.png" alt="Twitter"></a>
+    </div>
+  </div>
+</footer>
+</html>
